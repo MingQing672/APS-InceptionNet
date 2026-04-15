@@ -1,0 +1,9 @@
+{
+"traces_file" : "atmega8515-raw-traces.h5",
+"labeled_traces_file" : "./atmega8515-raw-traces_20k_desync600.h5",
+"profiling_index" : [n for n in range(0, 300000) if n%3 !=2],
+"attack_index" : [n for n in range(2,300000,3)],
+"target_points" : [n for n in range(78000,98000)],
+"profiling_desync" : 600,
+"attack_desync" : 600
+}

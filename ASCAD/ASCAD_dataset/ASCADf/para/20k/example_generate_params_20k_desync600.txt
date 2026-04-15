@@ -1,0 +1,9 @@
+{
+"traces_file" : "ATMega8515_raw_traces.h5",
+"labeled_traces_file" : "./ATMega8515_raw_traces_20k_desync600.h5",
+"profiling_index" : [n for n in range(0,50000)],
+"attack_index" : [n for n in range(50000,60000)],
+"target_points" : [n for n in range(40000,60000)],
+"profiling_desync" : 600,
+"attack_desync" : 600
+}
